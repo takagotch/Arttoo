@@ -6,6 +6,8 @@ https://github.com/hybridgroup/artoo
 .js
 https://github.com/medialab/artoo
 
+http://medialab.github.io/artoo/settings/
+
 ```ruby
 require 'artoo'
 connection :arduino, :adapter => :firmata, :port => '/dev/ttyACM0'
@@ -117,3 +119,26 @@ npm start
 npm run https
 ```
 
+```js
+artoo.settings.debug = true;
+
+artoo.loadSettings({
+  debug: false
+});
+
+asybnc.series(task);
+artoo.deps.aysnc.series(task);
+
+```
+
+```json
+{
+  "dependencies": [
+    {
+      "name": "async",
+      "url": "//cdnjs.cloudflare.com/ajax/libs/async/0.9.0/async.js",
+      "globals": ["async"]
+    ]
+  }
+}
+```
