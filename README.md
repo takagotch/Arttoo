@@ -109,6 +109,11 @@ exit
 artoo g adaptor awesome_device
 ```
 
-```
+```sh
+npm install
+npm test
+gulp bookmarklets
+npm start
+npm run https
 ```
 
